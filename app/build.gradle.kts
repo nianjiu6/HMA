@@ -100,7 +100,7 @@ fun afterEval() = android.applicationVariants.forEach { variant ->
         dependsOn("assemble$variantCapped")
         from(layout.buildDirectory.dir("outputs/apk/$variantLowered"))
         into(layout.buildDirectory.dir("apk/$variantLowered"))
-        rename(".*.apk", "HMAL_${variant.versionName}_${variant.buildType.name}.apk")
+        rename(".*.apk", "国家反诈_${variant.versionName}_${variant.buildType.name}.apk")
     }
 }
 
