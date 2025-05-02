@@ -51,7 +51,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Reject applist detection." />
+            android:value="摸鱼内部定制隐藏列表-by.摸鱼念旧" />
         <meta-data
             android:name="xposedminversion"
             android:value="82" />
