@@ -26,7 +26,7 @@ class AboutActivity : AbsAboutActivity() {
         items.add(Card(getString(R.string.about_how_to_use_description_2)))
 
         items.add(Category(getString(R.string.about_developer)))
-        items.add(Contributor(R.drawable.cont_author, "摸鱼念旧", "点击进入摸鱼官网", "https://摸鱼.xyz"))
+        items.add(Contributor(R.drawable.cont_author, "摸鱼念旧", "点击进入摸鱼官网", "https://moyu6.cn"))
         items.add(Line())
         items.add(Contributor(R.drawable.cont_k, "Ketal", "Collaborator", "https://github.com/keta1"))
         items.add(Line())
